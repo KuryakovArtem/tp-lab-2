@@ -10,6 +10,11 @@ bool cmp(T a, T b)
 }
 
 
+template<>
+bool cmp(char* a,char* b)
+{
+	return strlen(a)<strlen(b);
+}
 
 
 template <typename T>
