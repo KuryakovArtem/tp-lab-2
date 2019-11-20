@@ -32,4 +32,5 @@ int main()
 	{
 		map<int, size>(arr2, change);
 	}
+	return 0;
 } 

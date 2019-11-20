@@ -28,4 +28,5 @@ int main()
 	{
 		std::cout << doubleArray[i] << ' ';
 	}
+	return 0;
 }
